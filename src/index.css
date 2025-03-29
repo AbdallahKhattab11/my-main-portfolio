@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'NameFont';
+  src: url('/src/assets/fonts/name-font/Magnolia Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.nameFont {
+  font-family: 'NameFont', sans-serif;
+}
