@@ -31,7 +31,7 @@ const Home = () => {
             <h1 className="text-4xl md:text-7xl font-bold">
               <span className="text-[#d4d4d4] nameFont">
                 <span className="text-3xl md:text-5xl">Hello, I'm</span>{" "}
-                <span className="text-5xl md:text-7xl text-[#569cd6]">
+                <span className="text-5xl md:text-7xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                   Abdallah Khattab
                 </span>
               </span>
