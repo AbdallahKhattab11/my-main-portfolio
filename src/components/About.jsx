@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import me from '/src/assets/images/me.jpg'
-import me2 from '/src/assets/images/me2.jpg'
+import me from "/src/assets/images/me.jpg";
+import me2 from "/src/assets/images/me2.jpg";
 
 const About = () => {
   const learningJourney = [
@@ -62,7 +62,9 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 p-1">
               <div className="w-full h-full bg-[#1e1e1e] rounded-2xl flex items-center justify-center">
-                <span className="text-6xl"><img src={me2} alt="Abdallah Khattab image" /></span>
+                <span className="text-6xl">
+                  <img src={me2} alt="Abdallah Khattab image" />
+                </span>
               </div>
             </div>
           </motion.div>
@@ -76,12 +78,12 @@ const About = () => {
           >
             <div className="prose prose-invert">
               <p className="text-lg text-gray-300">
-                I am a passionate Front-End Developer with a keen eye for design
-                and a love for creating beautiful, responsive web experiences.
-                My journey in web development started with a curiosity about how
-                websites work, and that curiosity has evolved into a
-                professional pursuit of excellence in creating modern web
-                applications.
+                Hello, I'm Abdallah Khattab, a passionate Front-End Developer
+                with a keen eye for design and a love for crafting engaging web
+                experiences. My journey into web development began with a deep
+                curiosity about how websites work, and that curiosity soon
+                transformed into a professional passion for building modern,
+                user-friendly applications.
               </p>
               <p className="text-lg text-gray-300">
                 I specialize in building user-friendly interfaces using React
