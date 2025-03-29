@@ -1,12 +1,15 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { FaReact } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaJs } from "react-icons/fa";
-import { FaGit } from "react-icons/fa";
-import { FaMobileAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaGit,
+  FaMobileAlt,
+  FaGithub,
+} from "react-icons/fa";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoAccessibility } from "react-icons/io5";
@@ -14,6 +17,37 @@ import { SiMui } from "react-icons/si";
 import { CgPerformance } from "react-icons/cg";
 
 const Home = () => {
+
+  const skills = [
+    { name: "HTML5", icon: <FaHtml5 className="text-[#E34F26]" /> },
+    { name: "CSS3", icon: <FaCss3Alt className="text-[#1572B6]" /> },
+    { name: "JavaScript", icon: <FaJs className="text-[#F7DF1E]" /> },
+    { name: "React", icon: <FaReact className="text-[#61DAFB]" /> },
+    {
+      name: "Tailwind CSS",
+      icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
+    },
+    { name: "Git", icon: <FaGit className="text-[#F05032]" /> },
+    { name: "GitHub", icon: <FaGithub className="text-[#3178C6]" /> },
+    {
+      name: "Responsive Design",
+      icon: <FaMobileAlt className="text-[#4CAF50]" />,
+    },
+    {
+      name: "Framer Motion",
+      icon: <TbBrandFramerMotion className="text-[#0055FF]" />,
+    },
+    {
+      name: "Accessibility",
+      icon: <IoAccessibility className="text-[#4CAF50]" />,
+    },
+    { name: "Material UI", icon: <SiMui className="text-[#0081CB]" /> },
+    {
+      name: "Performance Optimization",
+      icon: <CgPerformance className="text-[#4CAF50]" />,
+    },
+  ];
+  
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -30,8 +64,8 @@ const Home = () => {
           >
             <h1 className="text-4xl md:text-7xl font-bold">
               <span className="text-[#d4d4d4] nameFont">
-                <span className="text-3xl md:text-5xl">Hello, I'm</span>{" "}
-                <span className="text-5xl md:text-7xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                <span className="text-2xl md:text-4xl">Hello, I'm</span>{" "}
+                <span className="text-4xl md:text-6xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                   Abdallah Khattab
                 </span>
               </span>
@@ -95,20 +129,7 @@ const Home = () => {
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { name: "HTML5", icon: <FaHtml5 className="text-[#E34F26]" /> },
-              { name: "CSS3", icon: <FaCss3Alt className="text-[#1572B6]" /> },
-              { name: "JavaScript", icon: <FaJs className="text-[#F7DF1E]" /> },
-              { name: "React", icon: <FaReact className="text-[#61DAFB]" /> },
-              { name: "Tailwind CSS", icon: <RiTailwindCssFill className="text-[#06B6D4]" /> },
-              { name: "Git", icon: <FaGit className="text-[#F05032]" /> },
-              { name: "GitHub", icon: <FaGithub className="text-[#3178C6]" /> },
-              { name: "Responsive Design", icon: <FaMobileAlt className="text-[#4CAF50]" /> },
-              { name: "Framer Motion", icon: <TbBrandFramerMotion className="text-[#0055FF]" /> },
-              { name: "Accessibility", icon: <IoAccessibility className="text-[#4CAF50]" /> },
-              { name: "Material UI", icon: <SiMui className="text-[#0081CB]" /> },
-              { name: "Performance Optimization", icon: <CgPerformance className="text-[#4CAF50]" /> },
-            ].map((skill, index) => (
+            {skills.map((skill, index) => (
               <motion.div
                 key={skill.name}
                 initial={{ opacity: 0, y: 20 }}
