@@ -10,8 +10,6 @@ const App = () => {
     <Router>
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-[#d4d4d4]">
         <Navbar />
-
-        {/* Main Content */}
         <main className="pt-16">
           <Routes>
             <Route path="/" element={<Home />} />
