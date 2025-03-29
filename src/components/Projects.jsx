@@ -30,7 +30,7 @@ const Projects = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative bg-gray-800 rounded-xl overflow-hidden hover:shadow-xl hover:shadow-blue-500/20 transition-all duration-300"
+              className="group relative bg-gray-800 rounded-xl overflow-hidden hover:outline-1 outline-blue-500 transition-all duration-300"
             >
               {/* Project Image */}
               <div className="aspect-video bg-gray-700 flex items-center justify-center">
@@ -103,29 +103,10 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* Hover Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </motion.div>
           ))}
         </div>
 
-        {/* Call to Action */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-center mt-16"
-        >
-          <h2 className="text-2xl font-bold text-white mb-4">
-            Want to see more projects?
-          </h2>
-          <a
-            href="#contact"
-            className="inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full text-white font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300"
-          >
-            Get in Touch
-          </a>
-        </motion.div>
       </div>
     </div>
   );
