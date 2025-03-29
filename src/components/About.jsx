@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import me from '/src/assets/images/me.jpg'
+import me2 from '/src/assets/images/me2.jpg'
 
 const About = () => {
   const learningJourney = [
@@ -60,7 +62,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 p-1">
               <div className="w-full h-full bg-[#1e1e1e] rounded-2xl flex items-center justify-center">
-                <span className="text-6xl">👨‍💻</span>
+                <span className="text-6xl"><img src={me2} alt="Abdallah Khattab image" /></span>
               </div>
             </div>
           </motion.div>
