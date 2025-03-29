@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useRef } from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -109,10 +110,10 @@ const Contact = () => {
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center">
-                  <FaTwitter className="w-6 h-6 text-blue-500" />
+                  <FaXTwitter className="w-6 h-6 text-blue-500" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-white">Twitter</h3>
+                  <h3 className="text-lg font-semibold text-white">X</h3>
                   <a
                     href="https://x.com/Abdallah_kh_1"
                     target="_blank"
