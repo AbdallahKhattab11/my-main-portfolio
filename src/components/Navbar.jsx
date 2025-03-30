@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

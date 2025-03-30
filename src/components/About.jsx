@@ -76,7 +76,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
             className="space-y-6"
           >
-            <div className="prose prose-invert">
+            <div className="prose prose-invert mb-10">
               <p className="text-lg text-gray-300">
                 Hello, I'm Abdallah Khattab, a passionate Front-End Developer
                 with a keen eye for design and a love for crafting engaging web
