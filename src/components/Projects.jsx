@@ -30,7 +30,7 @@ const Projects = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative bg-gray-800 rounded-xl overflow-hidden hover:outline-1 outline-blue-500 transition-all duration-300"
+              className="group relative bg-gray-800 rounded-xl overflow-hidden transition-all duration-300"
             >
               {/* Project Image */}
               <div className="aspect-video bg-gray-700 flex items-center justify-center">

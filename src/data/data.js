@@ -1,5 +1,6 @@
 import finexoImg from "../assets/projectsData/Finexo/finexo-img.png";
 import cyborgImg from "../assets/projectsData/Cyborg/cyborg-img.png";
+import multiStepImg from "../assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
 
 export const projectsData = [
   {
@@ -24,12 +25,12 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "A modern portfolio website showcasing projects and skills",
-    image: "🎨",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    liveLink: "https://portfolio-demo.com",
-    githubLink: "https://github.com/yourusername/portfolio",
+    title: "Multi Step Form (Frontend Mentor)",
+    description: "A clean and responsive multi-step form with field validation, ideal for guiding users through complex inputs",
+    image: multiStepImg,
+    technologies: ["HTML", "CSS", "JavaScript"],
+    liveLink: "https://abdallahkhattab11.github.io/Multi-step-form/",
+    githubLink: "https://github.com/AbdallahKhattab11/Multi-step-form",
   },
   {
     id: 4,
