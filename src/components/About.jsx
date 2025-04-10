@@ -63,7 +63,7 @@ const About = () => {
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 p-1">
               <div className="w-full h-full bg-[#1e1e1e] rounded-2xl flex items-center justify-center">
                 <span className="text-6xl">
-                  <img src={me2} alt="Abdallah Khattab image" />
+                  <img src={me2} loading="lazy" alt="Abdallah Khattab image" />
                 </span>
               </div>
             </div>
