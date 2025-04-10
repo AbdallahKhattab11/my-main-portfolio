@@ -1,15 +1,15 @@
-
+import finexoImg from "../assets/projectsData/Finexo/finexo-img.png";
 
 export const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Finexo",
     description:
-      "A full-featured e-commerce platform built with React and Node.js",
-    image: "🛍️",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    liveLink: "https://project-demo.com",
-    githubLink: "https://github.com/yourusername/project",
+      "Finexo - Crypto Trading Platform With React And Modern Technologies",
+    image: finexoImg,
+    technologies: ["React", "React Icons", "Tailwind CSS", "Swiper Js", "React Router"],
+    liveLink: "https://finexo-react-tailwind.netlify.app/",
+    githubLink: "https://github.com/AbdallahKhattab11/Finexo_template",
   },
   {
     id: 2,
