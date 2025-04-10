@@ -1,5 +1,5 @@
 import finexoImg from "/src/assets/projectsData/Finexo/finexo-img.png";
-import cyborgImg from "/src/assets/projectsData/Cyborg/cyborg-img.png";
+import cyborgImg from "/public/cyborg-img.png";
 import multiStepImg from "/src/assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
 import productListImg from "/src/assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png";
 
