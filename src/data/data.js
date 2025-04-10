@@ -1,6 +1,7 @@
 import finexoImg from "../assets/projectsData/Finexo/finexo-img.png";
 import cyborgImg from "../assets/projectsData/Cyborg/cyborg-img.png";
 import multiStepImg from "../assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
+import productListImg from "../assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png";
 
 export const projectsData = [
   {
@@ -34,12 +35,12 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "Weather Dashboard",
+    title: "Product List With Cart (Frontend Mentor)",
     description:
-      "A weather dashboard with real-time data and interactive charts",
-    image: "🌤️",
-    technologies: ["React", "OpenWeather API", "Chart.js"],
-    liveLink: "https://weather-demo.com",
-    githubLink: "https://github.com/yourusername/weather-app",
+      "A dynamic product list with an interactive cart system that updates quantities and totals in real-time",
+    image: productListImg,
+    technologies: ["HTML", "CSS", "JavaScript", "JSON"],
+    liveLink: "https://abdallahkhattab11.github.io/Product-list-with-cart/",
+    githubLink: "https://github.com/AbdallahKhattab11/Product-list-with-cart",
   },
 ];
