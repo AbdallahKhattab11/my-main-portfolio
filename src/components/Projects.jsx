@@ -34,7 +34,7 @@ const Projects = () => {
             >
               {/* Project Image */}
               <div className="aspect-video bg-gray-700 flex items-center justify-center">
-                <img src={project.image} alt={project.title} className="text-6xl" />
+                <img src={project.image} alt={project.title} className="w-full h-full object-fit" />
               </div>
 
               {/* Project Content */}

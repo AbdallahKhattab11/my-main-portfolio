@@ -1,4 +1,5 @@
 import finexoImg from "../assets/projectsData/Finexo/finexo-img.png";
+import cyborgImg from "../assets/projectsData/Cyborg/cyborg-img.png";
 
 export const projectsData = [
   {
@@ -13,13 +14,13 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Cyborg",
     description:
-      "A collaborative task management application with real-time updates",
-    image: "📋",
-    technologies: ["React", "Firebase", "Tailwind CSS"],
-    liveLink: "https://task-app-demo.com",
-    githubLink: "https://github.com/yourusername/task-app",
+      "Cyborg - Your destination for popular games, Browse our gaming library.",
+    image: cyborgImg,
+    technologies: ["HTML", "CSS", "JavaScript", "Swiper Js"],
+    liveLink: "https://cyporg-project.netlify.app/",
+    githubLink: "https://github.com/AbdallahKhattab11/Cyborg-Project",
   },
   {
     id: 3,
