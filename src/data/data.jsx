@@ -2,6 +2,7 @@ import finexoImg from "/src/assets/projectsData/Finexo/finexo-img.png";
 import cyborgImg from "/public/cyborg-img.png";
 import multiStepImg from "/src/assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
 import productListImg from "/src/assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png";
+import modernWebsiteImg from "/src/assets/projectsData/Moder-website/modern-website-reacttailwind.png";
 
 export const projectsData = [
   {
@@ -42,5 +43,15 @@ export const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "JSON"],
     liveLink: "https://abdallahkhattab11.github.io/Product-list-with-cart/",
     githubLink: "https://github.com/AbdallahKhattab11/Product-list-with-cart",
+  },
+  {
+    id: 5,
+    title: "Modern Website",
+    description:
+      "A modern website template built with React and Tailwind CSS, showcasing a clean and responsive design",
+    image: modernWebsiteImg,
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Swiper Js"],
+    liveLink: "https://modern-website-reacttailwind.netlify.app/",
+    githubLink: "https://github.com/AbdallahKhattab11/Modern-website",
   },
 ];
