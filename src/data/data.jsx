@@ -3,6 +3,7 @@ import cyborgImg from "/public/cyborg-img.png";
 import multiStepImg from "/src/assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
 import productListImg from "/src/assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png";
 import modernWebsiteImg from "/src/assets/projectsData/Moder-website/modern-website-reacttailwind.png";
+import estateinImg from "/src/assets/projectsData/Estatein/estatein-real-state.png";
 
 export const projectsData = [
   {
@@ -53,5 +54,15 @@ export const projectsData = [
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Swiper Js"],
     liveLink: "https://modern-website-reacttailwind.netlify.app/",
     githubLink: "https://github.com/AbdallahKhattab11/Modern-website",
+  },
+  {
+    id: 6,
+    title: "Estatein (Real Estate)",
+    description:
+      "Find your dream property with Estatein's expert guidance.",
+    image: estateinImg,
+    technologies: ["React", "Tailwind CSS", "React Router", "Swiper Js"],
+    liveLink: "https://estatein-real-state.netlify.app/home",
+    githubLink: "https://github.com/AbdallahKhattab11/EStatein-project",
   },
 ];
